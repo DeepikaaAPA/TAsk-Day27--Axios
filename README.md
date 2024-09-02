@@ -1,8 +1,9 @@
-# React + Vite
+A React App that allows for CRUD operations with user data using React and Axios fetch to interact with a mock API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mock API URL :https://66d5a43bf5859a704266ea05.mockapi.io/api/v1/users
 
-Currently, two official plugins are available:
+Feature:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.Display all the existing users data in the UI using Axios.
+2.Users can perform CRUD operations on user data, including adding, editing, and deleting user records.
+3.The user data is stored in a mock API that can be accessed using Axios fetch.
